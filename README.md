@@ -509,7 +509,7 @@ noclipButton.MouseButton1Click:Connect(function()
 
 	setNoclip(noclipEnabled)
 end)
-
+s
 RunService.Stepped:Connect(function()
 	if noclipEnabled then
 		setNoclip(true)
